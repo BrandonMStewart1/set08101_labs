@@ -4,10 +4,13 @@ body {
 li{
 	list-style-type:none;
 	display: inline;
+	background-color: blue;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: black;
+  padding: 5px;
 }
