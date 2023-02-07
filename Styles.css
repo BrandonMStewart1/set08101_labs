@@ -1,10 +1,9 @@
 body {
-	background-color:salmon;
+	background-color:red;
 }
 li{
 	list-style-type:none;
 	display: inline;
-	padding: 50px;
 }
 
 ul {
