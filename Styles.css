@@ -4,4 +4,9 @@ body {
 li{
 	list-style-type:none;
 }
-font-family: comic sans;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
