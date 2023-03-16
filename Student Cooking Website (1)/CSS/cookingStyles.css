@@ -1,0 +1,155 @@
+/* The Universal Selector has been used here to cancel the browser default margins and */
+/* padding for every page element.  This ensures that only assigned */
+/* margin and padding values are implemented when viewing pages. */
+* {margin:0;padding:0}
+
+/* Background Colours */
+header {
+	background-color:#ff66ff;
+}
+main {
+	background-color:#ffccff;
+}
+body, header{
+	background-color:#00fdff;
+}
+
+footer, nav {
+	background-color: salmon;
+}
+
+nav li a:hover{
+	background-color:#ff7f00;
+}
+
+
+/* Text Properties */
+nav {
+	display:block;
+	clear:both;
+	margin-top:5px;
+	height:45px;
+}
+.homeIntro {
+	display:inline
+}
+
+
+h1 {
+	display:inline;
+	float:left
+}
+
+nav ul {
+	list-style-type:none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+}
+nav li {
+float:left;
+border-right:1px solid black;
+}
+
+nav li a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding: 14px 59px;
+}
+
+
+
+/* Margins */
+.thaiText{
+	margin-left:10px;
+	float:right;
+}
+
+body {
+	margin:auto;
+}
+h1 {
+margin-left:30px; margin-top:50px;	
+}
+
+
+/* Padding */
+
+.thaiIngredient {
+	padding:2px;
+}
+.thaiCurries {
+	padding:5px;
+}
+
+main {
+	padding:10px;
+}
+footer ul {
+	padding-left:5; padding-top:5px;
+}
+.homeIntro {
+	padding
+}
+.student {
+	padding-right:10px; padding-bottom:20px;
+}
+
+/* Positioning (Float, Display and Clear) */
+.imageBanner {
+display:inline; float:right }
+
+footer a, footer p {
+	padding-top:10px; padding-left:10px; display:block;
+}
+
+
+.student {
+	float:left;
+}
+nav, main, footer {
+	clear:both;
+}
+
+
+
+.thaiCurries {
+	float:right;
+}
+
+
+/* Element Sizes */
+.thaiIngredient {
+	width:160px;
+	height:120px;
+}
+.thaiCurries {
+	width:200px;
+	height:150px;
+}
+#India1{width:150px; height:300px;}
+#India2{width:150px; height:300px;}
+.pastaImages {width:190px; height:120px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
+.imageBanner {width:550px; height:100px;}
+.italianImages {width:140px; height:140px;}
+.pizzaImage {width:100px; height:70px;}#
+.tomatoSauce {padding-left:10px;}
+
+	
+footer { height:110px}
+header {height:90px}
+body {width:1000px}
+
+.imageStirFry {
+width:290px; height:150px;	
+}
+.spiceImages {
+	height:150px; width:180px; margin:10px;
+}
+
+
+/* Navigation List Properties */
+
+
+
