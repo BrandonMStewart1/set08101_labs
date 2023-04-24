@@ -58,11 +58,7 @@ nav li a {
 }
 
 
-/* Margins */
-.thaiText{
-	margin-left:10px;
-	float:right;
-}
+
 
 body {
 	margin:auto;
@@ -75,12 +71,6 @@ margin-left:30px; margin-top:50px;
 
 /* Padding */
 
-.thaiIngredient {
-	padding:2px;
-}
-.thaiCurries {
-	padding:5px;
-}
 
 main {
 	padding:10px;
@@ -112,26 +102,17 @@ nav, main, footer {
 
 
 
-.thaiCurries {
-	float:right;
-}
+
 .homeForm {
 	display:block; padding: 130px;
 }
 
 /* Element Sizes */
-.thaiIngredient {
-	width:160px;
-	height:120px;
-}
-.thaiCurries {
-	width:200px;
-	height:150px;
-}
+
+
 .PastaImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
 .CurryImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
 .BurritoImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
-.imageBanner {width:550px; height:100px;}
 .pizzaImages {width:300px; height:300px;}#
 
 	
