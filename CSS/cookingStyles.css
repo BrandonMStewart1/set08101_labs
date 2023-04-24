@@ -1,25 +1,23 @@
-/* The Universal Selector has been used here to cancel the browser default margins and */
-/* padding for every page element.  This ensures that only assigned */
-/* margin and padding values are implemented when viewing pages. */
+
 * {margin:0;padding:0}
 
 /* Background Colours */
 header {
-	background-color:#ff66ff;
+	background-color:#63ADF2;
 }
 main {
-	background-color:#ffccff;
+	background-color:#63ADF2;
 }
 body, header{
-	background-color:#00fdff;
+	background-color:#545E75;
 }
 
 footer, nav {
-	background-color: salmon;
+	background-color: #A7CCED;
 }
 
 nav li a:hover{
-	background-color:#ff7f00;
+	background-color:#09BC8A;
 }
 
 
@@ -30,7 +28,7 @@ nav {
 	margin-top:5px;
 	height:45px;
 }
-.homeIntro {
+.intro {
 	display:inline
 }
 
@@ -38,6 +36,7 @@ nav {
 h1 {
 	display:inline;
 	float:left
+	padding-bottom: 10px;
 }
 
 nav ul {
@@ -59,7 +58,6 @@ nav li a {
 }
 
 
-
 /* Margins */
 .thaiText{
 	margin-left:10px;
@@ -68,6 +66,7 @@ nav li a {
 
 body {
 	margin:auto;
+	width: 1750px;
 }
 h1 {
 margin-left:30px; margin-top:50px;	
@@ -87,25 +86,24 @@ main {
 	padding:10px;
 }
 footer ul {
-	padding-left:5; padding-top:5px;
+	padding-left:1; padding-top:1px;
 }
-.homeIntro {
-	padding
+.intro {
+	margin-left:5px;
 }
-.student {
-	padding-right:10px; padding-bottom:20px;
+.homeImage {
+	padding-right:10px; padding-bottom:20px; display:inline;
 }
 
 /* Positioning (Float, Display and Clear) */
-.imageBanner {
-display:inline; float:right }
+
 
 footer a, footer p {
 	padding-top:10px; padding-left:10px; display:block;
 }
 
 
-.student {
+.homeImage {
 	float:left;
 }
 nav, main, footer {
@@ -117,7 +115,9 @@ nav, main, footer {
 .thaiCurries {
 	float:right;
 }
-
+.homeForm {
+	display:block; padding: 130px;
+}
 
 /* Element Sizes */
 .thaiIngredient {
@@ -128,25 +128,16 @@ nav, main, footer {
 	width:200px;
 	height:150px;
 }
-#India1{width:150px; height:300px;}
-#India2{width:150px; height:300px;}
-.pastaImages {width:190px; height:120px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
+.PastaImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
+.CurryImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
+.BurritoImages {width:140px; height:140px; margin-left:30px; margin-top:10px; padding-bottom:10px;}
 .imageBanner {width:550px; height:100px;}
-.italianImages {width:140px; height:140px;}
-.pizzaImage {width:100px; height:70px;}#
-.tomatoSauce {padding-left:10px;}
+.pizzaImages {width:300px; height:300px;}#
 
 	
 footer { height:110px}
 header {height:90px}
-body {width:1000px}
 
-.imageStirFry {
-width:290px; height:150px;	
-}
-.spiceImages {
-	height:150px; width:180px; margin:10px;
-}
 
 
 /* Navigation List Properties */
